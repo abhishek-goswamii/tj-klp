@@ -1,0 +1,52 @@
+.navbar{
+    width: 100vw;
+    height: 14.4rem;
+    background-color: #CD050D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar_image{
+    width: 20%;
+    text-align: center;
+}
+.navbar_image > img{
+    height: 10rem;
+}
+.navbar_elements{
+    width: 50%;
+}
+
+.navbar_elements > ul{
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+.navbar_elements > ul > li{
+    list-style-type: none;
+    list-style: none;
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar_elements > ul > li > p{
+    font-weight: 800;
+}
+
+.login_ipo_btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.login_ipo_btn > button{
+    border-radius: 1rem;
+    font-size: 2rem;
+    border-style: none;
+    height: 3.7rem;
+    font-weight: 200;
+    width: 12.9rem;
+}
+

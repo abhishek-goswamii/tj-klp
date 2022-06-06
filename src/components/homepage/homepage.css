@@ -1,0 +1,177 @@
+
+.get_started{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.get-started-btn{
+
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.get-started-btn > div > h1{
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.get-started-btn > div > p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+}
+.get-started-btn > div{
+    width: 100%;
+    height: 100%;
+
+}
+.get-started-btn > div > button{
+    margin-top: 2rem;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    width: 55rem;
+    height: 6rem;
+    background-color: #103E60;
+    color: white;
+    border-style: none;
+    border-radius: 1rem;
+}
+
+.get_started_img img{
+    width: 100%;
+    height: 100%;    
+    object-fit: contain;
+}
+
+.get_started_img{
+    width: 60%;
+}
+
+/* welcome div */
+
+.welcome_kalpataru{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+}
+.welcome_kalpataru_des h2{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+}
+.welcome_kalpataru_des{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome_kalpataru_img{
+    width: 40%;
+}
+.welcome_kalpataru_img > img{
+    width: 70rem;
+}
+.welcome_kalpataru_des > div{
+    margin-top: 20rem;
+}
+.welcome_kalpataru_des_card{
+    width: 50rem;
+    height: 22rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.014),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.018),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.012),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.016),
+    0 100px 80px rgba(0, 0, 0, 0.02)
+}
+.welcome_kalpataru_des_card > p {
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+
+.welcome_kalpataru_des_card > button {
+    font-size: 2.3rem;
+    padding: .7rem;
+    border-style: none;
+    margin-left: 5rem;
+    color: white;
+    background-color: #103E60;
+
+}
+
+
+/* features from here*/
+
+.feature{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+
+.feature_img > img{
+    width: 80%;
+}
+.feature_features{
+    width: 60%;
+}
+.feature_features > h1{
+    margin-left: 22rem;
+    margin-top: 2rem;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 6rem;
+}
+.feature_features_boxes{
+    display: flex; 
+    align-items: center;
+    height: 30rem;
+    justify-content: space-around;
+}
+
+.feature_features_box{
+    background-image: linear-gradient(#263238, #C53F3F);
+    color: white;
+    padding: 4rem;
+    width: 5rem;
+    height: 5rem;
+}
+.feature_features_box{
+    font-size: 1rem;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+}
+
+/* product offered */
+
+.product_offered{
+    width: 80vw;
+    margin: auto;
+}
+
+.product_offered_headline > h1{
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 8rem;
+
+}
+
+.product_offered_div > img{
+
+    margin-top: 6rem;
+    width: 60%;
+
+}
