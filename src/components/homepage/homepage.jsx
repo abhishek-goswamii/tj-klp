@@ -1,11 +1,44 @@
 import React from 'react'
-import getStartedIMage from '../../images/Investment-data-img.png'
-import welcomeImage from '../../images/welcome_img.png'
+import getStartedIMage from '../../assets/images/Investment-data-img.png'
+import welcomeImage from '../../assets/images/welcome_img.png'
 import './homepage.css'
-import featureImage from '../../images/features_img.png'
-import productOfferedImage from '../../images/product_offered_img.png'
+import featureImage from '../../assets/images/features_img.png'
+import arrowImage from '../../assets/images/arrow _img.png'
+import productOfferedImage from '../../assets/images/product_offered_img.png'
+import drop_your_details_img from '../../assets/images/dropYourDetails_img.png'
+import know_more_img from '../../assets/images/know_more_img.png'
+import our_services_main_image from '../../assets/images/our_services_main_image.png'
+
+import img11 from '../../assets/images/our_services/11.png'
+import img12 from '../../assets/images/our_services/12.png'
+import img13 from '../../assets/images/our_services/13.png'
+import img14 from '../../assets/images/our_services/14.png'
+
+import img21 from '../../assets/images/our_services/21.png'
+import img22 from '../../assets/images/our_services/22.png'
+import img23 from '../../assets/images/our_services/23.png'
+import img24 from '../../assets/images/our_services/24.png'
+
+import right_arrow_img from '../../assets/images/right_arrow.png'
+import left_arrow_img from '../../assets/images/left_arrow.png'
+
+import testimonial_image1 from '../../assets/images/clint_testimonials_images/i1.png'
+
+import faq_arrow from '../../assets/images/faq/faq_arrow.png'
+import faq_i1 from '../../assets/images/faq/faq_image1.png'
+import faq_i2 from '../../assets/images/faq/faq_image2.png'
+import faq_i3 from '../../assets/images/faq/faq_image3.png'
+import faq_i4 from '../../assets/images/faq/faq_image4.png'
+
+
+
+import { useState } from 'react'
 
 const Homepage = () => {
+
+  const [investInText, setinvestInText] = useState("Mutual Funds");
+
+
   return (
     <>
       <div className='get_started'>
@@ -16,9 +49,9 @@ const Homepage = () => {
 
         <div className='get-started-btn'>
           <div>
-            <h1>Invest in Mutual Funds</h1>
+            <h1>Invest in <span>{investInText}</span></h1>
 
-            <p>Trusted by many peoples. <br />
+            <p>Trusted by many peoples . <br />
               Start investing Today </p>
 
             <button>Get Started</button>
@@ -37,7 +70,7 @@ const Homepage = () => {
 
           <div>
 
-            <h2>Welcome To Kalpataru
+            <h2>Welcome To Kalpataru <br />
               Multiplier Ltd.</h2>
             <div className='welcome_kalpataru_des_card'>
               <p>Kalpataru is a wishful Devine Tree and in present context a
@@ -65,6 +98,7 @@ const Homepage = () => {
       {/* features */}
 
       <div className='feature'>
+
         <div className='feature_img'>
           <img src={featureImage} alt="" />
         </div>
@@ -75,14 +109,30 @@ const Homepage = () => {
 
           <div className='feature_features_boxes'>
 
-            <div className='feature_features_box'>Expert
-              <br /> Advidsory</div>
+            <div className='feature_features_box'>
 
-            <div className='feature_features_box'>Transparent
-              <br /> Pricing</div>
+              <p>Expert
+                Advidsory </p>
 
-            <div className='feature_features_box'>Flexible <br />
-              Brokerage Plans</div>
+            </div>
+
+            <img src={arrowImage} alt="" />
+
+            <div className='feature_features_box'>
+              <p>Transparent Pricing</p>
+
+            </div>
+
+            <img src={arrowImage} alt="" />
+
+            <div className='feature_features_box'>
+
+              <p>Flexible Brokerage Plans </p>
+
+            </div>
+
+            <img src={arrowImage} alt="" />
+
 
             <div className='feature_features_box'>Offers Both <br />
               Online and Offline</div>
@@ -98,21 +148,335 @@ const Homepage = () => {
       <div className='product_offered'>
 
         <div className='product_offered_headline'>
-            <h1>Products Offered Within Exchanges</h1>
+          <h1>Products Offered Within Exchanges</h1>
         </div>
 
         <div className='product_offered_div'>
 
-          <img src={productOfferedImage} alt="" />
+          <div className='product_offered_div_img'>
+
+            <img src={productOfferedImage} alt="" />
+
+          </div>
 
           <div className='product_offered_types'>
+
+            <div className='product_offered_types_div'>
+
+              <div className='product_offered_types_div_div1'>
+
+                <button className='product_offered_types_div_div1_btn1'>NSE</button>
+                <button className='product_offered_types_div_div1_btn2'>BSE</button>
+                <button className='product_offered_types_div_div1_btn3'>MCX</button>
+
+              </div>
+
+              <div className='product_offered_types_div_div2'>
+
+                <button>Equities</button>
+                <button>Derivatives</button>
+                <button>Fixed Income & Debt </button>
+
+              </div>
+
+            </div>
 
           </div>
 
         </div>
 
       </div>
+      {/* drop your details */}
 
+      <div className='drop_your_details'>
+
+        <div className='drop_your_details_heading'>
+
+          <h1>Make Right Decision With Us</h1>
+        </div>
+        <div><p>Drop Your Details</p></div>
+
+        <div className='drop_your_details_main_div'>
+
+          <div>
+            <div className='drop_your_details_main_div_inputs'>
+              <input placeholder='Name'></input>
+              <input placeholder='Mobile Number'></input>
+              <input placeholder='Email Id'></input>
+            </div>
+          </div>
+
+
+          <div className='drop_your_details_main_div_img'>
+            <img src={drop_your_details_img} alt="" />
+          </div>
+
+        </div>
+
+        <div className='drop_your_details_btn'><button>Submit</button></div>
+
+      </div>
+
+      {/* know more */}
+      <div className='know_more'>
+        <div>
+
+          <div className='know_more_btn'>
+            <h1>Want to know more <br /> Kalpataru ?</h1>
+            <p>Just click on the button to <br />
+              know more</p>
+            <button>About Us</button>
+          </div>
+          <div className='know_more_img'>
+            <img src={know_more_img} alt="" />
+          </div>
+        </div>
+
+      </div>
+
+      {/* our services */}
+
+      <div className='our_services'>
+
+        <div className='our_services_child'>
+
+
+          <div className='our_services_heading'>
+            <h2>Our Services</h2>
+          </div>
+
+
+          <div className='our_services_content'>
+
+            <div className='our_services_content_child'>
+
+              <div className='our_services_content_child_cards'>
+
+                <div className='our_services_content_child_cards_1'>
+
+
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>Mutual Fund</h4>
+                      <img src={img11} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>MTradingutual</h4>
+                      <img src={img12} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>Equity</h4>
+                      <img src={img13} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>Depository</h4>
+                      <img src={img14} alt="" />
+                    </div>
+                  </div>
+
+
+
+                </div>
+                <div className='our_services_content_child_cards_2'>
+
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>IPO</h4>
+                      <img src={img21} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>General
+                        Insurance</h4>
+                      <img src={img22} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>PAN CARD</h4>
+                      <img src={img23} alt="" />
+                    </div>
+                  </div>
+                  <div className='our_services_content_child_cards_1_card'>
+                    <div>
+                      <h4>SGB</h4>
+                      <img src={img24} alt="" />
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+              <div className='our_services_content_child_img'>
+                <img src={our_services_main_image} alt="" />
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+      {/* testimonials */}
+      <div className='testimonials'>
+
+        <div className='testimonials_heading'>
+          <h1>Clients’ Testimonials</h1>
+        </div>
+
+        <div className='testimonials_content'>
+
+          <div className='testimonials_content_child'>
+
+            <div className='testimonials_content_child_part1'>
+              <img src={right_arrow_img} alt="" />
+              <img src={left_arrow_img} alt="" />
+            </div>
+            <div className='testimonials_content_child_part2'>
+
+              <div className='testimonials_content_child_part2_card'>
+
+                <div className='testimonials_content_child_part2_card_part1'>
+                  <img src={testimonial_image1} alt="" />
+                </div>
+
+                <div className='testimonials_content_child_part2_card_part2'>
+
+                  <h3>Akash Singh</h3>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                </div>
+              </div>
+              <div className='testimonials_content_child_part2_card'>
+
+                <div className='testimonials_content_child_part2_card_part1'>
+                  <img src={testimonial_image1} alt="" />
+                </div>
+
+                <div className='testimonials_content_child_part2_card_part2'>
+
+                  <h3>Akash Singh</h3>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                </div>
+              </div>
+              <div className='testimonials_content_child_part2_card'>
+
+                <div className='testimonials_content_child_part2_card_part1'>
+                  <img src={testimonial_image1} alt="" />
+                </div>
+
+                <div className='testimonials_content_child_part2_card_part2'>
+
+                  <h3>Akash Singh</h3>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                </div>
+              </div>
+              <div className='testimonials_content_child_part2_card'>
+
+                <div className='testimonials_content_child_part2_card_part1'>
+                  <img src={testimonial_image1} alt="" />
+                </div>
+
+                <div className='testimonials_content_child_part2_card_part2'>
+
+                  <h3>Akash Singh</h3>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                </div>
+              </div>
+              <div className='testimonials_content_child_part2_card'>
+
+                <div className='testimonials_content_child_part2_card_part1'>
+                  <img src={testimonial_image1} alt="" />
+                </div>
+
+                <div className='testimonials_content_child_part2_card_part2'>
+
+                  <h3>Akash Singh</h3>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {/* faq */}
+
+      <div className='faq'>
+
+        <div className='faq_heading'>
+          <h1>FAQ</h1>
+        </div>
+
+        <div className='faq_cards'>
+
+          
+          <div className='faq_card'>
+
+            <h4>Why Should you Invest</h4>
+            <img className='faq_card_img1' src={faq_i1} alt="" />
+            <img className='faq_card_img2' src={faq_arrow} alt="" />
+
+          </div>
+          <div className='faq_card'>
+
+            <h4>What is the difference between saving and investing?</h4>
+            <img className='faq_card_img1' src={faq_i2} alt="" />
+            <img className='faq_card_img2' src={faq_arrow} alt="" />
+
+          </div>
+          <div className='faq_card'>
+
+            <h4>Inflanation and its relationship with investment</h4>
+            <img className='faq_card_img1' src={faq_i3} alt="" />
+            <img className='faq_card_img2' src={faq_arrow} alt="" />
+
+          </div>
+          <div className='faq_card'>
+
+            <h4>Which assests class you should invest in?</h4>
+            <img className='faq_card_img1' src={faq_i4} alt="" />
+            <img className='faq_card_img2' src={faq_arrow} alt="" />
+
+          </div>
+
+        </div>
+
+      </div>
+      
+      <h1 className='footer_h1'>  Footer here</h1>
     </>
   )
 }

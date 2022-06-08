@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import navBarImage from '../../images/navbar-image.png'
+import navBarImage from '../../assets/images/navbar-image.png'
 import Homepage from '../homepage/homepage';
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
         <div className='navbar_elements'>
           <ul>
 
-            <li> <p> About Us</p></li>
+            <li> About Us</li>
             <li>Services</li>
             <li>Investor Corner</li>
             <li>Partner With Us</li>
