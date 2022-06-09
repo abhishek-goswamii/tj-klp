@@ -25,8 +25,8 @@
 }
 
 .header-block > img {
-  width: 170.47px;
-  height: 157.82px;
+  width: 150.47px;
+  height: 117.82px;
   margin-top: 50px;
 }
 
@@ -122,7 +122,7 @@
   padding-top: 2.4rem;
   padding-bottom: 4.5rem;
   padding-right: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .location-card-heading {
@@ -172,4 +172,12 @@
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 38px;
+}
+
+@media (min-width: 340px) and (max-width: 1000px) {
+  .location-card-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

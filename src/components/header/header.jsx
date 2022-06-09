@@ -8,26 +8,34 @@ const Header = () => {
     <>
 
       <div className='navbar'>
-        <div className='navbar_image'>
-          <img src={navBarImage}></img>
+
+        <div className='navbar_child_div'>
+
+
+          <div className='navbar_image'>
+            <img src={navBarImage}></img>
+          </div>
+
+          <div className='navbar_elements'>
+            
+            <ul>
+
+              <li> About Us</li>
+              <li>Services</li>
+              <li>Investor Corner</li>
+              <li>Partner With Us</li>
+
+            </ul>
+            
+          </div>
+          <div className='login_ipo_btn'>
+            <button>Login</button>
+            <button>IPO</button>
+          </div>
         </div>
 
-        <div className='navbar_elements'>
-          <ul>
-
-            <li> About Us</li>
-            <li>Services</li>
-            <li>Investor Corner</li>
-            <li>Partner With Us</li>
-
-          </ul>
-        </div>
-        <div className='login_ipo_btn'>
-          <button>Login</button>
-          <button>IPO</button>
-        </div>
       </div>
-      
+
     </>
   )
 }

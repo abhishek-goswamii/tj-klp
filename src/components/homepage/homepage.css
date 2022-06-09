@@ -43,13 +43,11 @@
 }
 .get-started-btn > div > button{
     margin-top: 5.5rem;
-    font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 3.6rem;
+    font-weight: 300;
     width: 52rem;
     height: 8rem;
-    font-weight: 900 !important;
     background-color: #103E60;
     color: white;
     border-style: none;
@@ -58,7 +56,7 @@
 
 .get_started_img img{
     margin-left: -3rem;
-    width: 100%;
+    width: 90%;
     height: 100%;    
     object-fit: contain;
 }
@@ -71,7 +69,7 @@
 
 .welcome_kalpataru{
     display: flex;
-    width: 80vw;
+    width: 85vw;
     margin-top: -8rem;
     margin-left: auto;
     margin-right: auto;
@@ -105,7 +103,7 @@
     width: 50%;
 }
 .welcome_kalpataru_img > img{
-    width: 60rem;
+    width: 55rem;
 }
 .welcome_kalpataru_des_card{
     width: 53rem;
@@ -120,8 +118,8 @@
 }
 
 .welcome_kalpataru_des_card > button {
-    font-size: 2.3rem;
-    padding: .7rem;
+    font-size: 1.4rem;
+    padding: 1rem 1.4rem 1rem 1.4rem;
     border-style: none;
     border-radius: .5rem;
     margin-left: 5rem;
@@ -152,7 +150,7 @@
 }
 .feature_img > img{
     
-    width: 40rem;
+    width: 37rem;
     object-fit: fill ;
 
 }
@@ -173,26 +171,26 @@
     display: flex; 
     align-items: center;
     height: 30rem;
+    text-align: center;
     margin-left: 4.5rem;
+}
+.feature_features_box > p{
+    min-width: 100%;
+    font-size: 1.3rem;
 }
 
 .feature_features_box{
     border-radius: 1rem;
     background: linear-gradient(180deg, rgba(38, 50, 56, 0.8) 0%, rgba(197, 63, 63, 0.8) 100%);
     color: white;
-    padding: 4.5rem;
-    font-family: 'Grape Nuts', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 2rem;
-    width: 6rem;
-    height: 6rem;
-}
-
-.feature_features_box{
-    font-size: 1rem;
-    font-family: 'Grape Nuts', cursive;
-    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    width: 14rem;
+    height: 14rem;
 }
 
 /* product offered */
@@ -342,8 +340,7 @@
     font-family: 'Poppins', sans-serif;
     padding: 1.5rem 28rem 1.5rem 2.4rem;
     box-shadow: 2px 7px 30px rgba(0, 0, 0, 0.15);
-    border-color: #CD050D;
-    
+    border: 1px solid #CD050D;
     font-size: 2.2rem;
     font-weight: 300;
     color: #949494;
@@ -439,13 +436,19 @@
 }
 .our_services_content_child_cards_1{
     padding: 3rem;
-  display: flex;    
+    display: flex;    
 }
+
+.our_services_content_child_cards_1_card > div > h4{
+    font-size: 1.5rem;
+}
+
 .our_services_content_child_cards_2{
     padding: 3rem;
 
     display: flex;
 }
+
 .our_services_content_child_cards_1_card > div{
       display: flex;
       flex-direction: column;
@@ -457,12 +460,12 @@
       0px 0px 23px rgba(0, 0, 0, 0.18);
       margin: 1rem;
       font-family: 'Inter', sans-serif;
-      height: 16rem;
-      width: 16rem;
+      height: 17rem;
+      width: 17rem;
       border-radius: 1rem;
 }
 .our_services_content_child_cards_1_card > div > img{
-    width: 11rem;
+    width: 12rem;
 }
 
 .our_services_content_child_img > img{
@@ -472,61 +475,112 @@ width: 55rem;
 
 
 /* testimonials */
-
-
 .testimonials{
     width: 100vw;
-    display: flex;
-    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 .testimonials_heading > h1{
+    width: 100%;
+    padding-bottom: 8rem;
+    text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    font-weight: 600;
+    font-weight: 500;
 }
 .testimonials_content{
+    width: 100%;
+    height: 40rem;
     background-color: #FFF6EA;
+    height: 43rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .testimonials_content_child{
-    width: 90%;
-    margin: auto;
-    align-items: center;
+    width: 85%;
+    height: 64%;
     display: flex;
-    padding: 4rem;
     justify-content: space-around;
+    align-items: center;
 }
-.testimonials_content_child_part1{
+.testimonials_content_child_2arrow_img{
+    width: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.testimonials_content_child_2arrow_img > div{
     display: flex;
     flex-direction: column;
-    width: 10%;
-}
-.testimonials_content_child_part1 > img{
-    width: 8rem;
-}
-.testimonials_content_child_part2{
-    width: 90%;
-    display: flex;
+    height: 7rem;
     justify-content: space-around;
 }
-
-.testimonials_content_child_part2_card_part2{
-    text-align: center;
-    padding: 1rem;
+.testimonials_content_child_2arrow_img > div > img{
+    width: 8rem;
+}
+.testimonials_content_child_all_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
 }
 
-.testimonials_content_child_part2_card{
-  box-shadow:
-  0px 0px 2.9px rgba(0, 0, 0, 0.09),
-  0px 0px 23px rgba(0, 0, 0, 0.18);
-  background-color: white;
+.testimonials_content_child_all_cards_crd{
+    
+    width: 19rem;
+    height: 24rem;
+    box-shadow: 0px 0.9px 1.4px -2px rgb(0 0 0 / 14%), 0px 7px 11px -2px rgb(0 0 0 / 29%);
+    
 }
-.testimonials_content_child_part2_card_part1 > img{
-    width: 20rem;
+.testimonials_content_child_all_cards_crd:hover{
+
+    transform: scale(1.2);
+
+}
+.testimonials_content_child_all_cards_crd_img{
+    
+    height: 63%;
+    width: 100%;
+    overflow: hidden;
 }
 
+.testimonials_content_child_all_cards_crd_txt{
+    height: 37%;
 
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.testimonials_content_child_all_cards_crd_img img{
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.testimonials_content_child_all_cards_crd_txt > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials_content_child_all_cards_crd_txt > div > p{
+    font-size: .9rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.testimonials_content_child_all_cards_crd_txt > div > h2{
+    font-size: 1.7rem;
+    padding-bottom: .8rem;
+    padding-top: .2rem;
+}
+.play_video_vector_img{
+    z-index: 3;
+}
 /* faq */
 .faq{
     width: 95vw;

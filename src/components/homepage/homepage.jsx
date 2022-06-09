@@ -23,6 +23,11 @@ import right_arrow_img from '../../assets/images/right_arrow.png'
 import left_arrow_img from '../../assets/images/left_arrow.png'
 
 import testimonial_image1 from '../../assets/images/clint_testimonials_images/i1.png'
+import srinidhi_img from '../../assets/images/clint_testimonials_images/srinidhi_img.png'
+import amansingh_img from '../../assets/images/clint_testimonials_images/aman singh.png'
+import sandeep_img from '../../assets/images/clint_testimonials_images/sandeep patel.png'
+import rahul_img from '../../assets/images/clint_testimonials_images/rahul tomar.png'
+import play_btn_img from '../../assets/images/clint_testimonials_images/play_vector.png'
 
 import faq_arrow from '../../assets/images/faq/faq_arrow.png'
 import faq_i1 from '../../assets/images/faq/faq_image1.png'
@@ -111,7 +116,7 @@ const Homepage = () => {
 
             <div className='feature_features_box'>
 
-              <p>Expert
+              <p>Expert <br />
                 Advidsory </p>
 
             </div>
@@ -119,7 +124,7 @@ const Homepage = () => {
             <img src={arrowImage} alt="" />
 
             <div className='feature_features_box'>
-              <p>Transparent Pricing</p>
+              <p>Transparent <br /> Pricing</p>
 
             </div>
 
@@ -127,15 +132,18 @@ const Homepage = () => {
 
             <div className='feature_features_box'>
 
-              <p>Flexible Brokerage Plans </p>
+              <p>Flexible <br /> Brokerage Plans </p>
 
             </div>
 
             <img src={arrowImage} alt="" />
 
 
-            <div className='feature_features_box'>Offers Both <br />
-              Online and Offline</div>
+            <div className='feature_features_box'>
+              <p>
+                Offers Both <br />
+                Online and Offline
+              </p></div>
 
           </div>
 
@@ -329,7 +337,9 @@ const Homepage = () => {
 
 
       </div>
+
       {/* testimonials */}
+
       <div className='testimonials'>
 
         <div className='testimonials_heading'>
@@ -338,99 +348,139 @@ const Homepage = () => {
 
         <div className='testimonials_content'>
 
-          <div className='testimonials_content_child'>
+          <div className='testimonials_content_child' >
 
-            <div className='testimonials_content_child_part1'>
-              <img src={right_arrow_img} alt="" />
-              <img src={left_arrow_img} alt="" />
+            <div className='testimonials_content_child_2arrow_img'>
+
+              <div>
+
+                <img src={right_arrow_img} alt="" />
+                <img src={left_arrow_img} alt="" />
+
+              </div>
+
             </div>
-            <div className='testimonials_content_child_part2'>
 
-              <div className='testimonials_content_child_part2_card'>
+            <div className='testimonials_content_child_all_cards'>
 
-                <div className='testimonials_content_child_part2_card_part1'>
+              <div className='testimonials_content_child_all_cards_crd'>
+
+                <div className='testimonials_content_child_all_cards_crd_img'>
                   <img src={testimonial_image1} alt="" />
-                </div>
-
-                <div className='testimonials_content_child_part2_card_part2'>
-
-                  <h3>Akash Singh</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
 
                 </div>
+
+                <div className='testimonials_content_child_all_cards_crd_txt'>
+
+                  <div>
+
+                    <h2>Akash Singh</h2>
+
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                  </div>
+
+                </div>
+
               </div>
-              <div className='testimonials_content_child_part2_card'>
+              <div className='testimonials_content_child_all_cards_crd'>
 
-                <div className='testimonials_content_child_part2_card_part1'>
-                  <img src={testimonial_image1} alt="" />
+                <div className='testimonials_content_child_all_cards_crd_img'>
+                  <img src={srinidhi_img} alt="" />
                 </div>
 
-                <div className='testimonials_content_child_part2_card_part2'>
+                <div className='testimonials_content_child_all_cards_crd_txt'>
 
-                  <h3>Akash Singh</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <div>
+
+                    <h2>Srinidhi Shetty</h2>
+
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                  </div>
 
                 </div>
+
               </div>
-              <div className='testimonials_content_child_part2_card'>
+              <div className='testimonials_content_child_all_cards_crd'>
 
-                <div className='testimonials_content_child_part2_card_part1'>
-                  <img src={testimonial_image1} alt="" />
+                <div className='testimonials_content_child_all_cards_crd_img'>
+                  <img src={sandeep_img} alt="" />
                 </div>
 
-                <div className='testimonials_content_child_part2_card_part2'>
+                <div className='testimonials_content_child_all_cards_crd_txt'>
 
-                  <h3>Akash Singh</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <div>
+
+                    <h2>Sandeep Patel</h2>
+
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                  </div>
 
                 </div>
+
               </div>
-              <div className='testimonials_content_child_part2_card'>
+              <div className='testimonials_content_child_all_cards_crd'>
 
-                <div className='testimonials_content_child_part2_card_part1'>
-                  <img src={testimonial_image1} alt="" />
+                <div className='testimonials_content_child_all_cards_crd_img'>
+                  <img src={amansingh_img} alt="" />
                 </div>
 
-                <div className='testimonials_content_child_part2_card_part2'>
+                <div className='testimonials_content_child_all_cards_crd_txt'>
 
-                  <h3>Akash Singh</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <div>
+
+                    <h2>Aman Singh</h2>
+
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                  </div>
 
                 </div>
+
               </div>
-              <div className='testimonials_content_child_part2_card'>
+              <div className='testimonials_content_child_all_cards_crd'>
 
-                <div className='testimonials_content_child_part2_card_part1'>
-                  <img src={testimonial_image1} alt="" />
+                <div className='testimonials_content_child_all_cards_crd_img'>
+                  <img src={rahul_img} alt="" />
                 </div>
 
-                <div className='testimonials_content_child_part2_card_part2'>
+                <div className='testimonials_content_child_all_cards_crd_txt'>
 
-                  <h3>Akash Singh</h3>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                  <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                  <div>
+
+                    <h2>Rahul Tomer</h2>
+
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+
+                  </div>
 
                 </div>
+
               </div>
 
             </div>
 
           </div>
+
         </div>
+
       </div>
       {/* faq */}
 
@@ -442,7 +492,7 @@ const Homepage = () => {
 
         <div className='faq_cards'>
 
-          
+
           <div className='faq_card'>
 
             <h4>Why Should you Invest</h4>
@@ -475,7 +525,7 @@ const Homepage = () => {
         </div>
 
       </div>
-      
+
       <h1 className='footer_h1'>  Footer here</h1>
     </>
   )
