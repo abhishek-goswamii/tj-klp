@@ -367,7 +367,7 @@ const Homepage = () => {
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
                   <img src={testimonial_image1} alt="" />
-
+                  <p><img src={play_btn_img} alt="" /></p>
                 </div>
 
                 <div className='testimonials_content_child_all_cards_crd_txt'>
@@ -390,6 +390,7 @@ const Homepage = () => {
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
                   <img src={srinidhi_img} alt="" />
+                  <p><img src={play_btn_img} alt="" /></p>
                 </div>
 
                 <div className='testimonials_content_child_all_cards_crd_txt'>
@@ -411,7 +412,9 @@ const Homepage = () => {
               <div className='testimonials_content_child_all_cards_crd'>
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
+                  
                   <img src={sandeep_img} alt="" />
+                  <p><img src={play_btn_img} alt="" /></p>
                 </div>
 
                 <div className='testimonials_content_child_all_cards_crd_txt'>
@@ -434,6 +437,7 @@ const Homepage = () => {
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
                   <img src={amansingh_img} alt="" />
+                  <p><img src={play_btn_img} alt="" /></p>
                 </div>
 
                 <div className='testimonials_content_child_all_cards_crd_txt'>
@@ -456,6 +460,7 @@ const Homepage = () => {
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
                   <img src={rahul_img} alt="" />
+                  <p><img src={play_btn_img} alt="" /></p>
                 </div>
 
                 <div className='testimonials_content_child_all_cards_crd_txt'>
