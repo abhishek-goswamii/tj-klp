@@ -5,7 +5,7 @@
   align-items: center;
   background: #fff6ea;
   width: 100vw;
-  height: auto;
+  height: 120rem;
   font-size: 62.5%;
   font-family: "Inter";
 }
@@ -17,39 +17,53 @@
 }
 
 .header-block > h1 {
-  font-size: 6rem;
-  font-weight: 600;
+  font-size: 4.5rem;
+  font-weight: 500;
   line-height: 73px;
   margin-top: 93px;
   margin-bottom: 82px;
 }
 
 .header-block > img {
-  width: 150.47px;
-  height: 117.82px;
+  width: 130.47px;
+  height: 97.82px;
   margin-top: 50px;
 }
-
-.contact-us-card {
-  width: 60vw;
+.contact-us-card{
   display: flex;
-  flex-wrap: wrap;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-  margin-bottom: 20px;
-  padding-left: 42px;
-  padding-right: 42px;
-  padding-top: 96px;
-  padding-bottom: 26px;
+  justify-content: center;
+  align-items: center;
+  height: 70rem;
+  width: 70%;
+  box-shadow:
+  0px 0px 2.7px rgba(0, 0, 0, 0.053),
+  0px 0px 6.9px rgba(0, 0, 0, 0.075),
+  0px 0px 14.2px rgba(0, 0, 0, 0.095),
+  0px 0px 29.2px rgba(0, 0, 0, 0.117),
+  0px 0px 80px rgba(0, 0, 0, 0.17);
+  background-color: white;
+  border-radius: 5rem;
 }
+.contact-us-card_child{
+  display: flex;
 
-.contact-us-card > div {
-  flex: 50%;
 }
-
+.contact-us-card_child_1{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact-us-card_child_2{
+  height: 100%;
+  margin-top: 10rem;
+  width: 50%;
+}
 .small-card {
   width: 100%;
+  height: 30%;
   display: flex;
   font-size: 62.5%;
   font-family: "Inter";
@@ -62,8 +76,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 7.8rem;
-  height: 7.8rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   background-color: #fff6ea;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);

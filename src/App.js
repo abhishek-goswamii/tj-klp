@@ -7,13 +7,16 @@ import PanCard from './components/pan_card/pan_card';
 import GeneralInsurance from './components/general insurance/general_insurance';
 import ContactUs from './components/contactUs/contactUs';
 import Blog from './components/blog/blog';
+import { useState } from 'react';
 
 const App = () => {
+  
+  const [openModel, setOpenModel] = useState(false);
 
   return (
     <BrowserRouter>
 
-      <Header />
+      <Header openModel={openModel} setOpenModel={setOpenModel}/>
 
       <>
         <Routes>

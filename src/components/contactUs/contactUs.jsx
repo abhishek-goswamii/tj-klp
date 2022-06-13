@@ -25,52 +25,66 @@ const ContactUs = () => {
           <h1>Contact Us</h1>
           <img src={ellipseRight} alt="multi_user_logo" />
         </div>
-        <div className="contact-us-card">
-          <SmallCard
-            name={"New Account Opening"}
-            imgSrc={newAcc}
-            mobNo={"254512152323"}
-            emailId={"sale@huufgjfhj"}
-          />
 
-          <SmallCard
-            name={"Support"}
-            imgSrc={supportImg}
-            mobNo={"254512152323"}
-          />
-          <SmallCard
-            name={"Funds Deposit/Withdrawal"}
-            imgSrc={contactCardImg}
-            mobNo={"254512152323"}
-            emailId={"sale@huufgjfhj"}
-          />
-          <SmallCard
-            name={"Admin/RMS"}
-            imgSrc={userImg}
-            mobNo={"254512152323"}
-            emailId={"sale@huufgjfhj"}
-          />
-          <SmallCard
-            name={"Trading/Dealing"}
-            imgSrc={chartImg}
-            mobNo={"254512152323"}
-          />
-          <SmallCard
-            name={"Partnership"}
-            imgSrc={connectingPeopleImg}
-            mobNo={"254512152323"}
-          />
-          <SmallCard
-            name={"Modification/Reactivation"}
-            imgSrc={gearImg}
-            mobNo={"254512152323"}
-          />
-          <SmallCard
-            name={"Department"}
-            imgSrc={fileImg}
-            mobNo={"254512152323"}
-          />
+        <div className="contact-us-card">
+
+          <div className="contact-us-card_child" >
+
+            <div className="contact-us-card_child_1">
+
+              <SmallCard
+                name={"New Account Opening"}
+                imgSrc={newAcc}
+                mobNo={"254512152323"}
+                emailId={"sale@huufgjfhj"}
+              />
+
+              <SmallCard
+                name={"Support"}
+                imgSrc={supportImg}
+                mobNo={"254512152323"}
+              />
+              <SmallCard
+                name={"Funds Deposit/Withdrawal"}
+                imgSrc={contactCardImg}
+                mobNo={"254512152323"}
+                emailId={"sale@huufgjfhj"}
+              />
+              <SmallCard
+                name={"Admin/RMS"}
+                imgSrc={userImg}
+                mobNo={"254512152323"}
+                emailId={"sale@huufgjfhj"}
+              />
+
+            </div>
+            <div className="contact-us-card_child_2">
+              <SmallCard
+                name={"Trading/Dealing"}
+                imgSrc={chartImg}
+                mobNo={"254512152323"}
+              />
+              <SmallCard
+                name={"Partnership"}
+                imgSrc={connectingPeopleImg}
+                mobNo={"254512152323"}
+              />
+              <SmallCard
+                name={"Modification/Reactivation"}
+                imgSrc={gearImg}
+                mobNo={"254512152323"}
+              />
+              <SmallCard
+                name={"Department"}
+                imgSrc={fileImg}
+                mobNo={"254512152323"}
+              />
+            </div>
+
+          </div>
+
         </div>
+
       </div>
 
       {/* Location Section */}

@@ -1,4 +1,5 @@
 
+
 .get_started{
     width: 90vw;
     display: flex;
@@ -6,13 +7,14 @@
     margin: auto;
 }
 
-.get-started-btn{
 
+
+
+.get-started-btn{
     display: flex;
-    height: 25rem;
+    height: 35rem;
     justify-content: center;
     width: 50%;
-
 }
 
 .get-started-btn > div > h1{
@@ -68,10 +70,12 @@
 
 /* welcome div */
 
+
 .welcome_kalpataru{
     display: flex;
+    align-items: center;
     width: 85vw;
-    margin-top: -8rem;
+    margin-top: 8rem;
     margin-left: auto;
     margin-right: auto;
 
@@ -469,9 +473,31 @@
     width: 12rem;
 }
 
+.our_services_content_child_cards_1_card_title{
+    
+    height: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.our_services_content_child_cards_1_card_title > h4{
+    font-size: 1.8rem;
+}
+.our_services_content_child_cards_1_card_img{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+.our_services_content_child_cards_1_card_img > img{
+
+    width: 10rem;
+    padding-bottom: 3rem;
+}
+
+
 .our_services_content_child_img > img{
 
-width: 55rem;
+        width: 55rem;
 }
 
 
@@ -614,10 +640,34 @@ width: 55rem;
     justify-content: space-around;
     width: 100%;
 }
+.faq_card_img{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+.faq_card_icon{
+    height: 15%;
+}
+.faq_card_heading{
+    height: 15%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.faq_card_heading > h4{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 400;
+    width: 90%;
+    font-size: 1.8rem;
+}
+
 .faq_card{
-    padding: 2rem;
     margin: 2rem;
-    width: 25rem;
+    width: 30rem;
+    font-family: 'Inter', sans-serif;
     height: 30rem;
     border-radius: 1.5rem;
     display: flex;
@@ -630,7 +680,7 @@ width: 55rem;
 
 }
 .faq_card_img1{
-    width: 22rem;
+    height: 100%;
 }
 .faq_card_img2{
     width: 4rem;
@@ -650,7 +700,181 @@ width: 55rem;
 }
 
 
+/* media  */
+@media only screen and (min-device-width : 120px) and (max-device-width : 770px) {
+    
+    .get-started-btn > div > h1{
 
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 10rem;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    
+    }
+    .get_started{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+        width: 100vw;
+    }
+
+    .get-started-btn{
+        margin-top: 20rem;
+    }
+  
+    .get-started-btn > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-started-btn > div > p{
+        font-size: 5rem;
+        text-align: center;
+    }
+    .get_started_img > img{
+
+        width: 80%;
+        height: auto;    
+
+    }
+
+    .get_started_img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-started-btn > div > button {
+        padding: 4rem 12rem 9rem 12rem;
+    }
+  
+
+    /* welcome media from here */
+
+    .welcome_kalpataru{
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+    .welcome_kalpataru_des{
+        width: 100%;
+    }
+    .welcome_kalpataru_des > div > h2{
+        font-size: 8rem;
+        margin-bottom: 5rem;
+    }
+    
+    .welcome_kalpataru_des_card > button {
+        border-radius: 2rem;
+        font-size: 4.5rem;
+        padding: 2.5rem 4rem 2.5rem 4rem;
+
+    }
+    .welcome_kalpataru_des > div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcome_kalpataru_des_card{
+        width: 100%;
+        height: 57rem;
+    }
+    .welcome_kalpataru_des_card > p{
+            font-size: 3.8rem;
+            padding: 5rem;
+            
+    }
+
+    .welcome_kalpataru_img{
+        width: 100%;
+    }
+    .welcome_kalpataru_img > img{
+        width: 105rem;
+    }
+
+    /* features media */
+
+    .feature{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .feature_features{
+        width: 95%;
+    }
+    .feature_features > h1{
+        font-size: 10rem;
+        padding-bottom: 6rem;
+    }
+
+    .feature_features_boxes{
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .feature_features_box{
+        width: 28rem;
+        height: 28rem;
+        border-radius: 1.8rem;
+    }
+    .feature_features_box > p{
+       font-size: 2.7rem;
+    }
+
+    .feature_img > img{
+        width: 65rem;
+        padding-top: 6rem;
+    }
+    /* features media */
+
+    .product_offered_div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 140rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product_offered_headline > h1{
+        font-size: 10rem;
+    }
+    .product_offered{
+        margin-top: 10rem;
+        width: 100vw;
+
+    }
+    .product_offered_div_img > img{
+        width: 100rem;
+    }
+    .product_offered_types{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .product_offered_types_div{
+        width: 90%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+
+    } 
+    /* media  */
 
 
 

@@ -77,7 +77,9 @@ const Homepage = () => {
 
             <h2>Welcome To Kalpataru <br />
               Multiplier Ltd.</h2>
+            
             <div className='welcome_kalpataru_des_card'>
+              
               <p>Kalpataru is a wishful Devine Tree and in present context a
                 widely Trusted, Time tested and Transparent Share Broker,
                 Investment Advisor and D.P. of this region. Kalpataru offers
@@ -85,6 +87,7 @@ const Homepage = () => {
                 and requirements since 1992. Our field of operation is Share
                 Trading, Commodity, Derivative (F&O) Trading, Currency, IPO,
                 Demat, Mutual Fund and Pan Card Services.</p>
+
               <button>Read More</button>
             </div>
 
@@ -265,60 +268,155 @@ const Homepage = () => {
 
                   <div className='our_services_content_child_cards_1_card'>
                     <div>
-                      <h4>Mutual Fund</h4>
-                      <img src={img11} alt="" />
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>Mutual Fund</h4>
+
+                      </div>
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img11} alt="" />
+
+                      </div>
                     </div>
                   </div>
                   <div className='our_services_content_child_cards_1_card'>
                     <div>
-                      <h4>MTradingutual</h4>
-                      <img src={img12} alt="" />
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>Trading</h4>
+
+                      </div>
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img12} alt="" />
+
+                      </div>
                     </div>
                   </div>
                   <div className='our_services_content_child_cards_1_card'>
                     <div>
-                      <h4>Equity</h4>
-                      <img src={img13} alt="" />
-                    </div>
-                  </div>
-                  <div className='our_services_content_child_cards_1_card'>
-                    <div>
-                      <h4>Depository</h4>
-                      <img src={img14} alt="" />
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>Equity</h4>
+
+                      </div>
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img13} alt="" />
+
+                      </div>
                     </div>
                   </div>
 
+                  <div className='our_services_content_child_cards_1_card'>
+
+                    <div>
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>Depository</h4>
+
+                      </div>
+
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img14} alt="" />
+
+                      </div>
+
+                    </div>
+
+                  </div>
 
 
                 </div>
+
                 <div className='our_services_content_child_cards_2'>
 
                   <div className='our_services_content_child_cards_1_card'>
+
                     <div>
-                      <h4>IPO</h4>
-                      <img src={img21} alt="" />
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>IPO</h4>
+
+                      </div>
+
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img21} alt="" />
+
+                      </div>
+
                     </div>
-                  </div>
-                  <div className='our_services_content_child_cards_1_card'>
-                    <div>
-                      <h4>General
-                        Insurance</h4>
-                      <img src={img22} alt="" />
-                    </div>
-                  </div>
-                  <div className='our_services_content_child_cards_1_card'>
-                    <div>
-                      <h4>PAN CARD</h4>
-                      <img src={img23} alt="" />
-                    </div>
-                  </div>
-                  <div className='our_services_content_child_cards_1_card'>
-                    <div>
-                      <h4>SGB</h4>
-                      <img src={img24} alt="" />
-                    </div>
+
                   </div>
 
+                  <div className='our_services_content_child_cards_1_card'>
+
+                    <div>
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>General
+                          Insurance</h4>
+
+                      </div>
+
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img22} alt="" />
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className='our_services_content_child_cards_1_card'>
+
+                    <div>
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>PAN CARD</h4>
+
+                      </div>
+
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img23} alt="" />
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className='our_services_content_child_cards_1_card'>
+
+                    <div>
+
+                      <div className='our_services_content_child_cards_1_card_title'>
+
+                        <h4>SGB</h4>
+
+                      </div>
+
+                      <div className='our_services_content_child_cards_1_card_img'>
+
+                        <img src={img24} alt="" />
+
+                      </div>
+
+                    </div>
+
+                  </div>
 
                 </div>
 
@@ -412,7 +510,7 @@ const Homepage = () => {
               <div className='testimonials_content_child_all_cards_crd'>
 
                 <div className='testimonials_content_child_all_cards_crd_img'>
-                  
+
                   <img src={sandeep_img} alt="" />
                   <p><img src={play_btn_img} alt="" /></p>
                 </div>
@@ -500,30 +598,64 @@ const Homepage = () => {
 
           <div className='faq_card'>
 
-            <h4>Why Should you Invest</h4>
-            <img className='faq_card_img1' src={faq_i1} alt="" />
-            <img className='faq_card_img2' src={faq_arrow} alt="" />
+            <div className='faq_card_heading'>
+              <h4>Why Should you Invest</h4>
+            </div>
+
+            <div className='faq_card_img'>
+              <img className='faq_card_img1' src={faq_i1} alt="" />
+            </div>
+
+            <div className='faq_card_icon'>
+              <img className='faq_card_img2' src={faq_arrow} alt="" />
+            </div>
+
+          </div>
+
+          <div className='faq_card'>
+
+            <div className='faq_card_heading'>
+              <h4>What is the difference between saving and investing?</h4>
+            </div>
+
+            <div className='faq_card_img'>
+              <img className='faq_card_img1' src={faq_i2} alt="" />
+            </div>
+
+            <div className='faq_card_icon'>
+              <img className='faq_card_img2' src={faq_arrow} alt="" />
+            </div>
+
+          </div>
+
+          <div className='faq_card'>
+
+            <div className='faq_card_heading'>
+              <h4>Inflanation and its relationship with investment</h4>
+            </div>
+
+            <div className='faq_card_img'>
+              <img className='faq_card_img1' src={faq_i3} alt="" />
+            </div>
+
+            <div className='faq_card_icon'>
+              <img className='faq_card_img2' src={faq_arrow} alt="" />
+            </div>
 
           </div>
           <div className='faq_card'>
 
-            <h4>What is the difference between saving and investing?</h4>
-            <img className='faq_card_img1' src={faq_i2} alt="" />
-            <img className='faq_card_img2' src={faq_arrow} alt="" />
+            <div className='faq_card_heading'>
+              <h4>Which assests class you should invest in?</h4>
+            </div>
 
-          </div>
-          <div className='faq_card'>
+            <div className='faq_card_img'>
+              <img className='faq_card_img1' src={faq_i4} alt="" />
+            </div>
 
-            <h4>Inflanation and its relationship with investment</h4>
-            <img className='faq_card_img1' src={faq_i3} alt="" />
-            <img className='faq_card_img2' src={faq_arrow} alt="" />
-
-          </div>
-          <div className='faq_card'>
-
-            <h4>Which assests class you should invest in?</h4>
-            <img className='faq_card_img1' src={faq_i4} alt="" />
-            <img className='faq_card_img2' src={faq_arrow} alt="" />
+            <div className='faq_card_icon'>
+              <img className='faq_card_img2' src={faq_arrow} alt="" />
+            </div>
 
           </div>
 

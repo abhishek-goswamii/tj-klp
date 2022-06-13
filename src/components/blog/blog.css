@@ -5,7 +5,8 @@
 }
 .blog_page_main_div_title > h1{
     font-family: 'Inter', sans-serif;
-    font-size: 5.4rem;
+    font-size: 5.1rem;
+    font-weight: 600;
     padding: 4rem;
     text-align: center;
 }
@@ -69,7 +70,7 @@
 }
 .blog_page_main_div_post_btn > button{
     background-color: #C53F3F;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     font-family: 'Inter', sans-serif;
     color: white;
     border-style: none;

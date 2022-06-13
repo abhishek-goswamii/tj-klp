@@ -69,10 +69,15 @@
     align-self: flex-start;
   }
   .insurance_mid_performance2 > div > h3 {
-    font-size: 2rem;
+    font-size: 2.9rem;
+  }
+ 
+  .insurance_mid_performance2 > div > h2 {
+    font-size: 3rem;
+    font-weight: 300;
   }
   .insurance_mid_performance2_low {
-    width: 20%;
+    width: 22%;
     display: flex;
     align-self: flex-start;
     flex-direction: column;
@@ -80,7 +85,7 @@
     align-items: center;
   }
   .insurance_mid_performance2_high {
-    width: 20%;
+    width: 22%;
     display: flex;
     align-self: flex-start;
     flex-direction: column;
@@ -88,9 +93,20 @@
     align-items: center;
   }
   .insurance_mid_performance2_bar {
-    width: 170%;
+    width: 66%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+  }
+
+  .insurance_up_triangle_today{
+    position: relative;
+    left: 40%;
+  }
+  .insurance_up_triangle_52w{
+    position: relative;
+    right: 45%;
   }
   .insurance_mid_performance2_bar > div {
     min-height: 1rem;
@@ -98,6 +114,9 @@
     width: 100%;
   
     background-color: #c53f3f;
+  }
+  .insurance_mid_performance2_bar > p > img{
+      width: 2.3rem;
   }
   .insurance_mid_performance3 {
     padding-top: 4rem;
@@ -117,7 +136,7 @@
     justify-content: space-between;
   }
   .about_insurance {
-    padding-top: 5rem;
+    margin-top: 11rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
