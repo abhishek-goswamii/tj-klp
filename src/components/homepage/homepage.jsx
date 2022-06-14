@@ -197,6 +197,7 @@ const Homepage = () => {
         </div>
 
       </div>
+      
       {/* drop your details */}
 
       <div className='drop_your_details'>
