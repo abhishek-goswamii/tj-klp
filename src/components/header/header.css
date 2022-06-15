@@ -69,3 +69,29 @@
     width: 10.9rem;
 }
 
+@media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
+    
+    .navbar_child_div {
+        width: 99%;
+    }
+    .navbar_image {
+        width: 12%;
+        text-align: center;
+    }
+    .navbar_elements > ul > li {
+        font-size: 2.8rem;
+    }
+    .login_ipo_btn > button {
+        font-size: 2.9rem;
+        height: 4.9rem;
+        width: 13.9rem;
+    }
+
+    .welcome_kalpataru {
+        margin-top: -6rem;
+    }
+    .testimonials_content_child_all_cards_crd_txt > div > h2 {
+        font-size: 2.1rem;
+    }
+    
+}

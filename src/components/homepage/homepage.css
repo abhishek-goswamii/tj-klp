@@ -1,14 +1,9 @@
-
-
 .get_started{
     width: 90vw;
     display: flex;
     align-items: center;
     margin: auto;
 }
-
-
-
 
 .get-started-btn{
     display: flex;
@@ -94,6 +89,7 @@
 }
 .welcome_kalpataru_des > div > h2{
     margin-bottom: 2.4rem;
+    font-weight: 500;
 }
 
 .welcome_kalpataru_des{
@@ -659,7 +655,7 @@
 .faq_card_heading > h4{
     padding-top: 2rem;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     width: 90%;
     font-size: 1.8rem;
 }
@@ -919,6 +915,7 @@
     }
     .drop_your_details_heading > h1 {
         font-size: 10rem;
+        font-weight: 500;
         text-align: center;
     }
     .drop_your_details {
@@ -1103,11 +1100,23 @@
         font-weight: 500;
     }
     
-@media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
+   @media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
     
-
+    .testimonials_content_child {
+        width: 100%;
+    }
+    .testimonials_content_child_all_cards_crd_txt > div > h2 {
+        font-size: 2.3rem;
+    }
+    .testimonials_content_child_all_cards_crd {
+        width: 22rem;
+        height: 27rem;
+    }
+    .testimonials_content_child_all_cards_crd_txt > div > p {
+        font-size: 1rem;
+    }
     
-}
+   }
 
     
     /* media  */
