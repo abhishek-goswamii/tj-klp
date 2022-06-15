@@ -88,64 +88,146 @@ const ContactUs = () => {
       </div>
 
       {/* Location Section */}
-      <div className="location-section">
-        <h1>Locations</h1>
-        <div className="location-card-section">
-          <div className="location-card">
-            <div className="location-card-heading">
-              <h2>CORPORATE OFFICE</h2>
-              <h3>
-                Hall No. 2, 1st Floor Western Block, Above Central Bank, GTB
-                Complex, T. T. Nagar, Bhopal-462003
-              </h3>
-            </div>
-            <div className="location-card-bottom-sec">
-              <img src={mapImg} alt="image_of_map" />
-              <div>
-                <div>
-                  <h3>CALL US &#64;</h3>
-                  <h4>0755-4223778, 4350141-143, 0755-4283016</h4>
+
+      <div className="location">
+        <div className="location-heading">
+          <h1>Locations</h1>
+        </div>
+
+        <div className="location-main-div">
+
+          <div className="location-main-div-child">
+
+            <div className="location-card">
+
+              <div className="location-card-top">
+                <h2>CORPORATE OFFICE</h2>
+                <p>
+                  Hall No. 2, 1st Floor Western Block,
+                  Above Central Bank, GTB Complex,
+                  T. T. Nagar, Bhopal-462003</p>
+              </div>
+              <div className="location-card-bottom">
+                <div className="location-card-bottom-img">
+                  <img src={mapImg} alt="" />
                 </div>
-                <div>
-                  <h3>EMAIL US &#64;</h3>
-                  <h4>
-                    kmlho@kalpatarumulti.com NAME OF CONTACT PERSON Amitabh
-                    Manya Jain (M.D.)
-                  </h4>
-                </div>
-                <div>
-                  <h3>CONTACT NO</h3>
-                  <h4>09425008895</h4>
+                <div className="location-card-bottom-right">
+                  <div className="location-card-bottom-right-box">
+                    <h4>
+                      CALL US @
+                    </h4>
+                    <p>
+                      0755-4223778,
+                    </p>
+                    <p>
+                      4350141-143,
+                    </p>
+                    <p>
+                      0755-4283016
+                    </p>
+                  </div>
+                  <div className="location-card-bottom-right-box">
+
+                    <h4>
+                      EMAIL US @
+                    </h4>
+
+                    <p>
+                      kmlho@kalpatarumulti.com
+                    </p>
+
+                    <p>
+                      NAME OF CONTACT PERSON
+
+                    </p>
+                    <p>
+                      Amitabh Manya Jain (M.D.)
+                    </p>
+
+                  </div>
+                  <div className="location-card-bottom-right-box">
+                    <h4>
+                      CONTACT NO
+                    </h4>
+                    <p>
+                      09425008895
+                    </p>
+                  </div>
                 </div>
               </div>
+
             </div>
+
+            <div className="location-card">
+
+              <div className="location-card-top">
+                <h2>CORPORATE OFFICE</h2>
+                <p>
+                  Hall No. 2, 1st Floor Western Block,
+                  Above Central Bank, GTB Complex,
+                  T. T. Nagar, Bhopal-462003</p>
+              </div>
+              <div className="location-card-bottom">
+                <div className="location-card-bottom-img">
+                  <img src={mapImg} alt="" />
+                </div>
+                <div className="location-card-bottom-right">
+                  <div className="location-card-bottom-right-box">
+                    <h4>
+                      CALL US @
+                    </h4>
+                    <p>
+                      0755-4223778,
+                    </p>
+                    <p>
+                      4350141-143,
+                    </p>
+                    <p>
+                      0755-4283016
+                    </p>
+                  </div>
+                  <div className="location-card-bottom-right-box">
+
+                    <h4>
+                      EMAIL US @
+                    </h4>
+
+                    <p>
+                      kmlho@kalpatarumulti.com
+                    </p>
+
+                    <p>
+                      NAME OF CONTACT PERSON
+
+                    </p>
+                    <p>
+                      Amitabh Manya Jain (M.D.)
+                    </p>
+
+                  </div>
+                  <div className="location-card-bottom-right-box">
+                    <h4>
+                      CONTACT NO
+                    </h4>
+                    <p>
+                      09425008895
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+
+
           </div>
 
-          <div className="location-card">
-            <div className="location-card-heading">
-              <h2>Head OFFICE</h2>
-              <h3>Kalpataru House, 18 Itwara, Bhopal (MP) - 462001</h3>
-            </div>
-            <div className="location-card-bottom-sec">
-              <img src={mapImg} alt="image_of_map" />
-              <div>
-                <div>
-                  <h3>CALL US &#64;</h3>
-                  <h4>0755-2530536, 2739822, 4262655</h4>
-                </div>
-                <div>
-                  <h3>EMAIL US &#64;</h3>
-                  <h4>kmlho@kalpatarumulti.com</h4>
-                </div>
-                <div>
-                  <h3>CONTACT NO</h3>
-                  <h4>09425008895</h4>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
         </div>
       </div>
+
     </>
   );
 };
