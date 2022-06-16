@@ -3,89 +3,247 @@ import newAcc from "../../assets/images/contactUs/multiUser.png";
 
 import ellipseRight from "../../assets/images/contactUs/ellipse_left.png";
 import ellipseLeft from "../../assets/images/contactUs/ellipse_right.png";
+
 import chartImg from "../../assets/images/contactUs/chart.png";
 import connectingPeopleImg from "../../assets/images/contactUs/connectingPeople.png";
+
 import contactCardImg from "../../assets/images/contactUs/contactCard.png";
+
 import fileImg from "../../assets/images/contactUs/file.png";
+
 import gearImg from "../../assets/images/contactUs/gear.png";
+
 import userImg from "../../assets/images/contactUs/user.png";
+
 import supportImg from "../../assets/images/contactUs/support.png";
+
 import mapImg from "../../assets/images/contactUs/mapImg.png";
 
 import "./contactUs.css";
-import SmallCard from "./smallCard";
 
 const ContactUs = () => {
   return (
     <>
       {/* Contact Us Section */}
-      <div className="contact-us-block">
-        <div className="header-block">
-          <img src={ellipseLeft} alt="multi_user_logo" />
-          <h1>Contact Us</h1>
-          <img src={ellipseRight} alt="multi_user_logo" />
+
+      <div className="contact-us">
+
+        <div className="contact-us-left">
+          <img src={ellipseLeft} alt="" />
         </div>
 
-        <div className="contact-us-card">
+        <div className="contact-us-middle">
 
-          <div className="contact-us-card_child" >
+          <div className="contact-us-middle-heading">
 
-            <div className="contact-us-card_child_1">
+            <h1>Contact Us</h1>
 
-              <SmallCard
-                name={"New Account Opening"}
-                imgSrc={newAcc}
-                mobNo={"254512152323"}
-                emailId={"sale@huufgjfhj"}
-              />
+          </div>
 
-              <SmallCard
-                name={"Support"}
-                imgSrc={supportImg}
-                mobNo={"254512152323"}
-              />
-              <SmallCard
-                name={"Funds Deposit/Withdrawal"}
-                imgSrc={contactCardImg}
-                mobNo={"254512152323"}
-                emailId={"sale@huufgjfhj"}
-              />
-              <SmallCard
-                name={"Admin/RMS"}
-                imgSrc={userImg}
-                mobNo={"254512152323"}
-                emailId={"sale@huufgjfhj"}
-              />
+          <div className="contact-us-middle-card">
+
+            <div className="contact-us-middle-card-left">
+
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                  <div>
+                    <img src={newAcc} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>New Account Opening</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                      <p>sale@huufgjfhj</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                  <div>
+                    <img src={contactCardImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Funds Deposit/Withdrawal</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                      <p>sale@huufgjfhj</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+
+                  <div>
+                    <img src={chartImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Trading/Dealing</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                  <div>
+                    <img src={gearImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Modification/Reactivation</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
 
             </div>
-            <div className="contact-us-card_child_2">
-              <SmallCard
-                name={"Trading/Dealing"}
-                imgSrc={chartImg}
-                mobNo={"254512152323"}
-              />
-              <SmallCard
-                name={"Partnership"}
-                imgSrc={connectingPeopleImg}
-                mobNo={"254512152323"}
-              />
-              <SmallCard
-                name={"Modification/Reactivation"}
-                imgSrc={gearImg}
-                mobNo={"254512152323"}
-              />
-              <SmallCard
-                name={"Department"}
-                imgSrc={fileImg}
-                mobNo={"254512152323"}
-              />
+
+            <div className="contact-us-middle-card-right">
+
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                <div>
+                    <img src={supportImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Support</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                <div>
+                    <img src={userImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Admin/RMS</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                <div>
+                    <img src={connectingPeopleImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Partnership</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="contact-us-middle-card-left-box">
+
+                <div className="contact-us-middle-card-left-box-img">
+
+                <div>
+                    <img src={fileImg} alt="" />
+                  </div>
+
+                </div>
+
+                <div className="contact-us-middle-card-left-box-content">
+                  <div className="contact-us-middle-card-left-box-content-uptxt">
+                    <p>Department</p>
+                  </div>
+                  <div className="contact-us-middle-card-left-box-content-downtxt">
+                    <div className="contact-us-middle-card-left-box-content-downtxt-child">
+                      <p>254512152323</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
             </div>
 
           </div>
 
         </div>
 
+        <div className="contact-us-right">
+          <img src={ellipseRight} alt="" />
+        </div>
+
       </div>
+
+
 
       {/* Location Section */}
 
