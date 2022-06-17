@@ -644,6 +644,7 @@ const Homepage = () => {
             </div>
 
           </div>
+          
           <div className='faq_card'>
 
             <div className='faq_card_heading'>
@@ -664,7 +665,7 @@ const Homepage = () => {
 
       </div>
 
-      <h1 className='footer_h1'>  Footer here</h1>
+
     </>
   )
 }

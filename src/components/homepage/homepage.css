@@ -1,18 +1,18 @@
-.get_started{
+.get_started {
     width: 90vw;
     display: flex;
     align-items: center;
     margin: auto;
 }
 
-.get-started-btn{
+.get-started-btn {
     display: flex;
     height: 35rem;
     justify-content: center;
     width: 50%;
 }
 
-.get-started-btn > div > h1{
+.get-started-btn>div>h1 {
 
     font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
@@ -22,23 +22,26 @@
     padding-bottom: 1rem;
 
 }
-.get-started-btn > div > h1 > span{
+
+.get-started-btn>div>h1>span {
     color: red;
 }
 
-.get-started-btn > div > p{
+.get-started-btn>div>p {
     margin-top: 4rem;
     font-size: 3rem;
     font-weight: 300;
     font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
 }
-.get-started-btn > div{
+
+.get-started-btn>div {
     width: 100%;
     height: 100%;
 
 }
-.get-started-btn > div > button{
+
+.get-started-btn>div>button {
     margin-top: 5.5rem;
     font-family: 'Inter', sans-serif;
     font-size: 3.6rem;
@@ -51,74 +54,81 @@
     border-radius: 1rem;
 }
 
-.get_started_img img{
+.get_started_img img {
 
     margin-left: -3rem;
     width: 90%;
-    height: 100%;    
+    height: 100%;
     object-fit: contain;
 }
 
-.get_started_img{
+.get_started_img {
     width: 60%;
 }
 
 /* welcome div */
 
 
-.welcome_kalpataru{
+.welcome_kalpataru {
     display: flex;
     align-items: center;
     width: 85vw;
-    margin-top: 8rem;
+    margin-top: -10rem;
     margin-left: auto;
     margin-right: auto;
 
 }
-.welcome_kalpataru_des h2{
+
+.welcome_kalpataru_des h2 {
     font-size: 3rem;
     text-align: center;
     font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
 }
-.welcome_kalpataru_des > div{
+
+.welcome_kalpataru_des>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.welcome_kalpataru_des > div > h2{
+
+.welcome_kalpataru_des>div>h2 {
     margin-bottom: 2.4rem;
     font-weight: 500;
 }
 
-.welcome_kalpataru_des{
+.welcome_kalpataru_des {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.welcome_kalpataru_img{
+
+.welcome_kalpataru_img {
     display: flex;
     justify-content: center;
     width: 50%;
 }
-.welcome_kalpataru_img > img{
+
+.welcome_kalpataru_img>img {
     width: 55rem;
 }
-.welcome_kalpataru_des_card{
+
+.welcome_kalpataru_des_card {
     width: 53rem;
     height: 27rem;
     border-radius: 1rem;
     box-shadow: 2px 7px 30px rgba(0, 0, 0, 0.15);
 }
-.welcome_kalpataru_des_card > p {
+
+.welcome_kalpataru_des_card>p {
     padding: 3rem;
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
 }
 
-.welcome_kalpataru_des_card > button {
+.welcome_kalpataru_des_card>button {
     font-size: 1.4rem;
     padding: 1rem 1.4rem 1rem 1.4rem;
     border-style: none;
@@ -130,7 +140,7 @@
 
 /* drop your details */
 
-.drop_your_details{
+.drop_your_details {
     display: flex;
     flex-direction: column;
     padding-bottom: 8rem;
@@ -140,47 +150,53 @@
 
 /* features from here*/
 
-.feature{
+.feature {
     width: 85vw;
     margin-left: 10vw;
     display: flex;
 }
-.feature_img{
+
+.feature_img {
     display: flex;
     justify-content: center;
 }
-.feature_img > img{
-    
+
+.feature_img>img {
+
     width: 37rem;
-    object-fit: fill ;
+    object-fit: fill;
 
 }
-.feature_features{
+
+.feature_features {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.feature_features > h1{
+
+.feature_features>h1 {
     font-weight: 500;
     font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
 }
-.feature_features_boxes{
-    display: flex; 
+
+.feature_features_boxes {
+    display: flex;
     align-items: center;
     height: 30rem;
     text-align: center;
     margin-left: 4.5rem;
 }
-.feature_features_box > p{
+
+.feature_features_box>p {
     min-width: 100%;
     font-size: 1.3rem;
 }
 
-.feature_features_box{
+.feature_features_box {
     border-radius: 1rem;
     background: linear-gradient(180deg, rgba(38, 50, 56, 0.8) 0%, rgba(197, 63, 63, 0.8) 100%);
     color: white;
@@ -196,7 +212,7 @@
 
 /* product offered */
 
-.product_offered{
+.product_offered {
     width: 85vw;
     margin-left: 10%;
     margin-right: 5%;
@@ -204,8 +220,8 @@
 }
 
 
-.product_offered_headline > h1{
-    
+.product_offered_headline>h1 {
+
     font-family: 'Grape Nuts', cursive;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
@@ -214,21 +230,22 @@
     padding: 5rem;
 
 }
-.product_offered_div{
+
+.product_offered_div {
     margin-top: 4rem;
     display: flex;
     width: 50%;
 }
 
-.product_offered_div_img > img{
+.product_offered_div_img>img {
     width: 60rem;
 }
 
-.product_offered_types{
+.product_offered_types {
     width: 50%;
 }
 
-.product_offered_types_div{
+.product_offered_types_div {
     display: flex;
     flex-direction: column;
 }
@@ -241,7 +258,7 @@
     justify-content: space-between;
 }
 
-.product_offered_types_div_div2{
+.product_offered_types_div_div2 {
     display: flex;
     height: 22rem;
     justify-content: space-around;
@@ -250,19 +267,21 @@
 
 /* buttons */
 
-.product_offered_types_div_div1 > button{
+.product_offered_types_div_div1>button {
 
     padding: 1.3rem 4rem 1.3rem 4rem;
 
 
 }
-.product_offered_types_div_div1_btn1{
+
+.product_offered_types_div_div1_btn1 {
     background-color: #D31510;
     border-style: none;
     color: white;
     border-radius: .6rem;
 }
-.product_offered_types_div_div1_btn2{
+
+.product_offered_types_div_div1_btn2 {
     background-color: #F7F4F2;
     border-radius: .6rem;
     border-style: dashed;
@@ -272,7 +291,7 @@
 
 }
 
-.product_offered_types_div_div2 > button{
+.product_offered_types_div_div2>button {
     height: 6rem;
     width: 50rem;
     background-color: #103E60;
@@ -282,7 +301,8 @@
     font-family: 'Poppins', sans-serif;
 
 }
-.product_offered_types_div_div1_btn3{
+
+.product_offered_types_div_div1_btn3 {
     border-style: dashed;
     color: #8989A2;
     background-color: #F7F4F2;
@@ -292,8 +312,8 @@
 
 /* drop your details  */
 
-.drop_your_details{
-    
+.drop_your_details {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,32 +324,37 @@
 
 }
 
-.drop_your_details_main_div{
+.drop_your_details_main_div {
     display: flex;
 
 }
 
-.drop_your_details_main_div_img{
+.drop_your_details_main_div_img {
     width: 50%;
 }
-.drop_your_details_main_div_img > img{
+
+.drop_your_details_main_div_img>img {
     width: 65rem;
 }
-.drop_your_details_main_div > div{
+
+.drop_your_details_main_div>div {
     width: 50%;
 }
-.drop_your_details_main_div_inputs{
+
+.drop_your_details_main_div_inputs {
     display: flex;
     height: 28rem;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 6rem;
 }
-.drop_your_details_heading > h1{
+
+.drop_your_details_heading>h1 {
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
 }
-.drop_your_details > div > p{
+
+.drop_your_details>div>p {
     font-family: 'Inter', sans-serif;
     font-size: 2.6rem;
     font-weight: 500;
@@ -337,7 +362,7 @@
 }
 
 
-.drop_your_details_main_div_inputs > input{
+.drop_your_details_main_div_inputs>input {
     font-family: 'Poppins', sans-serif;
     padding: 1.5rem 28rem 1.5rem 2.4rem;
     box-shadow: 2px 7px 30px rgba(0, 0, 0, 0.15);
@@ -346,12 +371,14 @@
     font-weight: 300;
     color: #949494;
 }
-.drop_your_details_btn{
+
+.drop_your_details_btn {
     display: flex;
     justify-content: left;
     width: 100%;
 }
-.drop_your_details_btn > button{
+
+.drop_your_details_btn>button {
     background-color: #103E60;
     color: white;
     margin-left: 20rem;
@@ -362,12 +389,14 @@
     border-style: none;
     font-family: 'Inter', sans-serif;
 }
-.know_more{
+
+.know_more {
     width: 100vw;
     height: 45rem;
     background-color: #FFF6EA;
 }
-.know_more > div{
+
+.know_more>div {
     width: 70%;
     margin: auto;
     display: flex;
@@ -375,11 +404,12 @@
     align-items: center;
 
 }
-.know_more_img > img{
- width: 50rem;   
+
+.know_more_img>img {
+    width: 50rem;
 }
 
-.know_more_btn{
+.know_more_btn {
     height: 30rem;
     justify-content: space-around;
     display: flex;
@@ -387,17 +417,19 @@
     align-items: center;
 }
 
-.know_more_btn > h1{
+.know_more_btn>h1 {
     font-family: 'Inter', sans-serif;
     font-size: 5rem;
     text-align: center;
 }
-.know_more_btn > p{
+
+.know_more_btn>p {
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     text-align: center;
 }
-.know_more_btn > button{
+
+.know_more_btn>button {
     background-color: #103E60;
     color: white;
     border-radius: .7rem;
@@ -409,7 +441,7 @@
 
 /* our services */
 
-.our_services{
+.our_services {
     width: 85vw;
     display: flex;
     justify-content: flex-end;
@@ -417,94 +449,104 @@
     margin-left: 21rem;
     margin-top: 6rem;
 }
-.our_services_heading > h2{
+
+.our_services_heading>h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 4rem;
-    
+
 }
-.our_services_child{
+
+.our_services_child {
     display: flex;
     flex-direction: column;
 }
-.our_services_content_child{
+
+.our_services_content_child {
     display: flex;
 }
-.our_services_content_child_cards{
+
+.our_services_content_child_cards {
     display: flex;
     width: 70%;
     flex-direction: column;
 }
-.our_services_content_child_cards_1{
+
+.our_services_content_child_cards_1 {
     padding: 3rem;
-    display: flex;    
+    display: flex;
 }
 
-.our_services_content_child_cards_1_card > div > h4{
+.our_services_content_child_cards_1_card>div>h4 {
     font-size: 1.5rem;
 }
 
-.our_services_content_child_cards_2{
+.our_services_content_child_cards_2 {
     padding: 3rem;
 
     display: flex;
 }
 
-.our_services_content_child_cards_1_card > div{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      box-shadow:
-      0px  0px 2.9px rgba(0, 0, 0, 0.09),
-      0px 0px 23px rgba(0, 0, 0, 0.18);
-      margin: 1rem;
-      font-family: 'Inter', sans-serif;
-      height: 17rem;
-      width: 17rem;
-      border-radius: 1rem;
+.our_services_content_child_cards_1_card>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow:
+        0px 0px 2.9px rgba(0, 0, 0, 0.09),
+        0px 0px 23px rgba(0, 0, 0, 0.18);
+    margin: 1rem;
+    font-family: 'Inter', sans-serif;
+    height: 17rem;
+    width: 17rem;
+    border-radius: 1rem;
 }
-.our_services_content_child_cards_1_card > div > img{
+
+.our_services_content_child_cards_1_card>div>img {
     width: 12rem;
 }
 
-.our_services_content_child_cards_1_card_title{
-    
+.our_services_content_child_cards_1_card_title {
+
     height: 40%;
     display: flex;
     align-items: center;
 
 }
-.our_services_content_child_cards_1_card_title > h4{
+
+.our_services_content_child_cards_1_card_title>h4 {
     font-size: 1.8rem;
 }
-.our_services_content_child_cards_1_card_img{
+
+.our_services_content_child_cards_1_card_img {
     height: 60%;
     display: flex;
     align-items: center;
 }
-.our_services_content_child_cards_1_card_img > img{
+
+.our_services_content_child_cards_1_card_img>img {
 
     width: 10rem;
     padding-bottom: 3rem;
 }
 
 
-.our_services_content_child_img > img{
+.our_services_content_child_img>img {
 
-        width: 55rem;
+    width: 55rem;
 }
 
 
 /* testimonials */
-.testimonials{
+.testimonials {
     margin-top: 4rem;
     width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
-.testimonials_heading > h1{
+
+.testimonials_heading>h1 {
     width: 100%;
     padding-bottom: 8rem;
     text-align: center;
@@ -512,7 +554,8 @@
     font-size: 4rem;
     font-weight: 500;
 }
-.testimonials_content{
+
+.testimonials_content {
     width: 100%;
     height: 40rem;
     background-color: #FFF6EA;
@@ -521,29 +564,34 @@
     justify-content: center;
     align-items: center;
 }
-.testimonials_content_child{
+
+.testimonials_content_child {
     width: 85%;
     height: 64%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.testimonials_content_child_2arrow_img{
+
+.testimonials_content_child_2arrow_img {
     width: 10%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.testimonials_content_child_2arrow_img > div{
+
+.testimonials_content_child_2arrow_img>div {
     display: flex;
     flex-direction: column;
     height: 7rem;
     justify-content: space-around;
 }
-.testimonials_content_child_2arrow_img > div > img{
+
+.testimonials_content_child_2arrow_img>div>img {
     width: 8rem;
 }
-.testimonials_content_child_all_cards{
+
+.testimonials_content_child_all_cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -551,7 +599,7 @@
     height: 100%;
 }
 
-.testimonials_content_child_all_cards_crd{
+.testimonials_content_child_all_cards_crd {
     background-color: #CD050D;
     overflow: hidden;
     width: 19rem;
@@ -559,18 +607,20 @@
     box-shadow: 0px 0.9px 1.4px -2px rgb(0 0 0 / 14%), 0px 7px 11px -2px rgb(0 0 0 / 29%);
 }
 
-.testimonials_content_child_all_cards_crd:hover{
+.testimonials_content_child_all_cards_crd:hover {
     background-color: transparent;
     transform: scale(1.2);
 
 }
-.testimonials_content_child_all_cards_crd_img{
-    
+
+.testimonials_content_child_all_cards_crd_img {
+
     height: 63%;
     width: 100%;
     overflow: hidden;
 }
-.testimonials_content_child_all_cards_crd_img > p >img{
+
+.testimonials_content_child_all_cards_crd_img>p>img {
 
     position: relative;
     width: 5rem;
@@ -579,7 +629,8 @@
     left: 7rem;
 
 }
-.testimonials_content_child_all_cards_crd_txt{
+
+.testimonials_content_child_all_cards_crd_txt {
     height: 37%;
     width: 100%;
     display: flex;
@@ -591,68 +642,79 @@
 
 }
 
-.testimonials_content_child_all_cards_crd_img img{
+.testimonials_content_child_all_cards_crd_img img {
     width: 100%;
     object-fit: fill;
     overflow: hidden;
 }
 
-.testimonials_content_child_all_cards_crd_txt > div{
+.testimonials_content_child_all_cards_crd_txt>div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.testimonials_content_child_all_cards_crd_txt > div > p{
+
+.testimonials_content_child_all_cards_crd_txt>div>p {
     font-size: .9rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.testimonials_content_child_all_cards_crd_txt > div > h2{
+
+.testimonials_content_child_all_cards_crd_txt>div>h2 {
     font-size: 1.7rem;
     padding-bottom: .8rem;
     padding-top: .2rem;
 }
-.play_video_vector_img{
+
+.play_video_vector_img {
     z-index: 3;
 }
+
 /* faq */
-.faq{
+
+.faq {
     width: 95vw;
     margin-left: auto;
     margin-right: auto;
 }
-.faq_heading{
+
+.faq_heading {
     background-color: white !important;
 }
-.faq_heading > h1{
-    padding: 6rem;
+
+.faq_heading>h1 {
+    padding: 5rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 4rem;
 }
 
-.faq_cards{
+.faq_cards {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.faq_card_img{
+
+.faq_card_img {
     height: 60%;
     display: flex;
     justify-content: center;
 
 }
-.faq_card_icon{
+
+.faq_card_icon {
     height: 15%;
 }
-.faq_card_heading{
+
+.faq_card_heading {
     height: 15%;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
-.faq_card_heading > h4{
+
+.faq_card_heading>h4 {
     padding-top: 2rem;
     text-align: center;
     font-weight: 500;
@@ -660,7 +722,7 @@
     font-size: 1.8rem;
 }
 
-.faq_card{
+.faq_card {
     margin: 2rem;
     width: 30rem;
     font-family: 'Inter', sans-serif;
@@ -671,23 +733,26 @@
     align-items: center;
     justify-content: space-around;
     box-shadow:
-    0px 0.9px 1.4px -2px rgba(0, 0, 0, 0.145),
-    0px 7px 11px -2px rgba(0, 0, 0, 0.29);
+        0px 0.9px 1.4px -2px rgba(0, 0, 0, 0.145),
+        0px 7px 11px -2px rgba(0, 0, 0, 0.29);
 
 }
-.faq_card_img1{
+
+.faq_card_img1 {
     height: 100%;
 }
-.faq_card_img2{
+
+.faq_card_img2 {
     width: 4rem;
 }
-.faq_card > h4{
+
+.faq_card>h4 {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     text-align: center;
 }
 
-.footer_h1{
+.footer_h1 {
     text-align: center;
     font-family: 'Inter', sans-serif;
     padding: 10rem;
@@ -698,8 +763,8 @@
 
 /* media  */
 @media only screen and (min-device-width : 120px) and (max-device-width : 770px) {
-    
-    .get-started-btn > div > h1{
+
+    .get-started-btn>div>h1 {
 
         font-family: 'Inter', sans-serif;
         font-weight: 500;
@@ -707,13 +772,14 @@
         padding-bottom: 1rem;
         text-align: center;
         font-size: 16rem;
-    
+
     }
-    .get-started-btn > div {
+
+    .get-started-btn>div {
         margin-top: -10rem;
     }
-   
-    .get_started{
+
+    .get_started {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -728,31 +794,34 @@
         height: 75rem;
         margin-bottom: 6rem;
     }
-    .get-started-btn > div{
+
+    .get-started-btn>div {
         display: flex;
         height: 85rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .get-started-btn > div > p{
+
+    .get-started-btn>div>p {
         font-size: 6rem;
         text-align: center;
     }
-    .get_started_img > img{
+
+    .get_started_img>img {
 
         width: 80%;
-        height: auto;    
+        height: auto;
 
     }
 
-    .get_started_img{
+    .get_started_img {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    .get-started-btn > div > button {
+    .get-started-btn>div>button {
         height: 16rem;
         width: 69rem;
         font-size: 6rem;
@@ -760,54 +829,60 @@
 
     /* welcome media from here */
 
-    .welcome_kalpataru{
+    .welcome_kalpataru {
         margin-top: 0rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 90vw;
     }
-    .welcome_kalpataru_des{
+
+    .welcome_kalpataru_des {
         width: 100%;
     }
-    .welcome_kalpataru_des > div > h2{
+
+    .welcome_kalpataru_des>div>h2 {
         font-size: 10rem;
         margin-bottom: 5rem;
     }
-    
-    .welcome_kalpataru_des_card > button {
+
+    .welcome_kalpataru_des_card>button {
         border-radius: 1rem;
         font-size: 4.5rem;
         padding: 2.5rem 4rem 2.5rem 4rem;
 
     }
-    .welcome_kalpataru_des > div{
+
+    .welcome_kalpataru_des>div {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .welcome_kalpataru_des_card{
+
+    .welcome_kalpataru_des_card {
         width: 100%;
         height: 57rem;
     }
-    .welcome_kalpataru_des_card > p{
-            font-size: 3.8rem;
-            padding: 5rem;
-            
+
+    .welcome_kalpataru_des_card>p {
+        font-size: 3.8rem;
+        padding: 5rem;
+
     }
 
-    .welcome_kalpataru_img{
+    .welcome_kalpataru_img {
         width: 100%;
     }
-    .welcome_kalpataru_img > img{
+
+    .welcome_kalpataru_img>img {
         width: 105rem;
     }
 
     /* features media */
 
-    .feature{
+    .feature {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -816,35 +891,38 @@
         margin-right: 0;
     }
 
-    .feature_features{
+    .feature_features {
         width: 95%;
     }
-    .feature_features > h1{
+
+    .feature_features>h1 {
         font-size: 10rem;
         padding-bottom: 6rem;
     }
 
-    .feature_features_boxes{
+    .feature_features_boxes {
         width: 100%;
         margin-left: 0rem;
     }
-    .feature_features_box{
+
+    .feature_features_box {
         width: 28rem;
         height: 28rem;
         border-radius: 1.8rem;
     }
-    .feature_features_box > p{
-       font-size: 2.7rem;
+
+    .feature_features_box>p {
+        font-size: 2.7rem;
     }
 
-    .feature_img > img{
+    .feature_img>img {
         width: 65rem;
         padding-top: 6rem;
     }
 
     /* features media */
 
-    .product_offered_div{
+    .product_offered_div {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -854,26 +932,30 @@
         align-items: center;
     }
 
-    .product_offered_headline > h1{
+    .product_offered_headline>h1 {
         font-size: 10rem;
         position: relative;
         top: 6rem;
     }
-    .product_offered{
+
+    .product_offered {
         margin-top: 10rem;
         width: 100vw;
 
     }
-    .product_offered_div_img > img{
+
+    .product_offered_div_img>img {
         width: 90rem;
     }
-    .product_offered_types{
+
+    .product_offered_types {
         width: 80%;
         margin-top: 7rem;
         display: flex;
         justify-content: center;
     }
-    .product_offered_types_div{
+
+    .product_offered_types_div {
         width: 90%;
         height: 60rem;
         display: flex;
@@ -881,52 +963,58 @@
         align-items: center;
         justify-content: center;
     }
-    .product_offered_types_div_div1{
+
+    .product_offered_types_div_div1 {
         width: 100%;
         height: 25%;
     }
-    .product_offered_types_div_div1 > button{
+
+    .product_offered_types_div_div1>button {
         font-size: 4rem;
         width: 29rem;
         height: 13rem;
         border-radius: 1.5rem;
     }
 
-    .product_offered_types_div_div2{
+    .product_offered_types_div_div2 {
         width: 100%;
         height: 70%;
         align-items: center;
     }
 
-    .product_offered_types_div_div2 > button{
-        
+    .product_offered_types_div_div2>button {
+
         height: 11rem;
         width: 98rem;
         font-size: 4rem;
     }
 
-    .drop_your_details_main_div{
+    .drop_your_details_main_div {
 
         display: flex;
         flex-direction: column-reverse;
     }
-    .drop_your_details_main_div > div {
+
+    .drop_your_details_main_div>div {
         width: 100%;
     }
-    .drop_your_details_heading > h1 {
+
+    .drop_your_details_heading>h1 {
         font-size: 10rem;
         font-weight: 500;
         text-align: center;
     }
+
     .drop_your_details {
         margin-top: 7rem;
     }
 
-    .drop_your_details > div > p {
+    .drop_your_details>div>p {
         font-size: 6.5rem;
         padding-top: 5.9rem;
     }
-    .drop_your_details_main_div_img > img {
+
+    .drop_your_details_main_div_img>img {
         width: 115rem;
     }
 
@@ -937,25 +1025,29 @@
         justify-content: space-around;
         margin-top: 0rem;
     }
-    .drop_your_details_main_div_inputs > input {
+
+    .drop_your_details_main_div_inputs>input {
         font-size: 5.2rem;
     }
 
-    .drop_your_details_btn > button {
+    .drop_your_details_btn>button {
         margin-left: 0rem;
         margin-top: 3rem;
         border-radius: 1rem;
         font-size: 5.5rem;
         padding: 3rem 16rem 3rem 16rem;
     }
+
     .drop_your_details_btn {
         justify-content: center;
     }
+
     .know_more {
         height: 150rem;
         margin-top: 10rem;
     }
-    .know_more > div {
+
+    .know_more>div {
         width: 85%;
         height: 100%;
         flex-direction: column;
@@ -963,8 +1055,8 @@
         align-items: center;
     }
 
-    .know_more_btn > button {
-     
+    .know_more_btn>button {
+
         background-color: #103E60;
         color: white;
         border-radius: 1rem;
@@ -972,18 +1064,21 @@
         border-style: none;
         font-size: 5.5rem;
     }
-    .know_more_btn > h1 {
+
+    .know_more_btn>h1 {
         font-size: 8rem;
     }
 
-    .know_more_btn > p {
+    .know_more_btn>p {
         font-size: 5rem;
     }
+
     .know_more_btn {
         height: 55rem;
         margin-top: 10rem;
     }
-    .know_more_img > img {
+
+    .know_more_img>img {
         width: 76rem;
     }
 
@@ -1001,33 +1096,37 @@
         margin-right: auto;
         margin-top: 18rem;
     }
-    
+
     .our_services_content_child {
         flex-direction: column-reverse;
         align-items: center;
         height: 100%;
     }
-    .our_services_content{
+
+    .our_services_content {
         height: 92%;
     }
-    .our_services_heading > h2 {
+
+    .our_services_heading>h2 {
         font-size: 10rem;
         text-align: center;
 
     }
+
     .our_services_content_child_cards {
         display: flex;
         width: 100%;
         height: 77rem;
         flex-direction: column;
     }
+
     .our_services_child {
         display: flex;
         width: 100%;
         height: 100%;
         flex-direction: column;
     }
-    
+
     .our_services_content_child_cards {
         display: flex;
         width: 100%;
@@ -1037,29 +1136,35 @@
     .testimonials_content_child_all_cards {
         width: 100%;
     }
-    
+
     .our_services_content_child_cards_1 {
         margin-left: -6rem;
     }
+
     .our_services_content_child_cards_2 {
         margin-left: -6rem;
     }
-    .our_services_content_child_cards_1_card > div{
+
+    .our_services_content_child_cards_1_card>div {
         height: 28rem;
         width: 28rem;
     }
-    .our_services_content_child_cards_1_card_title > h4 {
+
+    .our_services_content_child_cards_1_card_title>h4 {
         font-size: 3.4rem;
     }
-    .our_services_content_child_cards_1_card_img > img {
+
+    .our_services_content_child_cards_1_card_img>img {
         width: 18rem;
     }
-    .our_services_content_child_img > img {
+
+    .our_services_content_child_img>img {
         width: 86rem;
     }
+
     /* testimonial  */
 
-    .testimonials_heading > h1 {
+    .testimonials_heading>h1 {
         width: 100%;
         padding-bottom: 8rem;
         text-align: center;
@@ -1067,56 +1172,118 @@
         font-size: 10rem;
         font-weight: 500;
     }
-    .testimonials_content_child_2arrow_img > div > img {
+
+    .testimonials_content_child_2arrow_img>div>img {
         width: 0rem;
     }
-    
+
     .testimonials_content_child_2arrow_img {
-    width: 0%;
+        width: 0%;
     }
+
     .testimonials_content_child {
         width: 100%;
     }
+
     .testimonials_content_child {
         width: 100%;
         height: 100%;
-    }    
+    }
+
     .testimonials_content_child_all_cards_crd {
         width: 24rem;
         height: 29rem;
     }
-    .testimonials_content_child_all_cards_crd_img > p >img {
+
+    .testimonials_content_child_all_cards_crd_img>p>img {
         bottom: 23.3rem;
         left: 9.6rem;
     }
-    }   
-    .testimonials_content_child_all_cards_crd_txt > div > h2 {
-        font-size: 3.1rem;
-    }
 
-    /* faq  */
-    .faq_heading > h1 {
-        font-size: 10rem;
-        font-weight: 500;
+    
+
+    .faq_cards {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        height: 127rem;
+        width: 100%;
     }
-    
-   @media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
-    
+    .faq_card {
+        width: 55rem;
+        height: 55rem;
+        margin-left: 4.7rem;
+    }
+    .faq_card_heading>h4 {
+        font-size: 3.3rem;
+    }
+    .testimonials_heading>h1 {
+        font-size: 7rem;
+    }
+    .faq_card_img2 {
+        width: 6rem;
+    }
+    .faq_card_img1 {
+        height: 111%;
+    }
+}
+
+/* faq  */
+.faq_heading>h1 {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+@media only screen and (min-device-width : 770px) and (max-device-width : 1220px) {
+
     .testimonials_content_child {
         width: 100%;
     }
-    .testimonials_content_child_all_cards_crd_txt > div > h2 {
+
+    .testimonials_content_child_all_cards_crd_txt>div>h2 {
         font-size: 2.3rem;
     }
+
     .testimonials_content_child_all_cards_crd {
         width: 22rem;
         height: 27rem;
     }
-    .testimonials_content_child_all_cards_crd_txt > div > p {
+
+    .testimonials_content_child_all_cards_crd_txt>div>p {
         font-size: 1rem;
     }
-    
-   }
 
-    
-    /* media  */
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width :600px) {
+
+    .testimonials_content_child_all_cards_crd {
+        width: 39rem;
+        height: 44rem;
+    }
+    .testimonials_content_child_all_cards {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .testimonials_content {
+        height: 111rem;
+    }
+   
+    .testimonials_content_child_all_cards_crd_txt>div>p {
+        font-size: 1.9rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .testimonials_content_child_all_cards_crd_txt>div>h2 {
+        font-size: 4.1rem;
+    }
+    .testimonials_content_child_all_cards_crd_img>p>img {
+        bottom: 36.3rem;
+        left: 17.6rem;
+    }
+
+}
+
+
+
+/* media  */
